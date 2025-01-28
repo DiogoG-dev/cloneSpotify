@@ -169,3 +169,32 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #e30fc7, #3877ff);
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding: 15px 0px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.footer-button {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin-right: 40px;
+}
