@@ -15,6 +15,7 @@ body {
     background-color: #121212;
     border-radius: 8px;
     padding: 16px 0 0 16px;
+    margin-bottom: 16px;
 }
 
 .logo {
@@ -25,7 +26,7 @@ body {
 }
 
 .logo img {
-    width: 80px;
+    width: 90px;
 }
 
 .sidebar nav ul {
@@ -43,4 +44,64 @@ body {
     font-weight: 600;
     font-size: 14px;
     font-family: 'DM Sans', sans-serif;
+}
+
+.sidebar-playlist {    
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.playlist {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    padding: 0 20px 10px 20px;
+    margin-bottom: 20px;
+}
+
+.playlist a {
+    color: #b3b3b3;
+    margin-left: 90px;
+}
+
+.create-playlist {
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 20px 30px 0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.create-playlist .title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.create-playlist .help-text {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 15px;    
+}
+
+.create-playlist button {
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 20px;  
+}
+
+.select-lang button {
+    background-color: #121212;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 20px;
+    border: solid 1px white;
+    margin-bottom: 20px;
 }
