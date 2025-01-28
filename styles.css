@@ -64,13 +64,13 @@ body {
     justify-content: space-between;
 }
 
-.library .library-button {
+.library .library-title {
     display: flex;
     margin-right: 10px;
     color: #b3b3b3;
     background-color: transparent;
     border: 0px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     font-family: 'DM Sans', sans-serif;
     text-align: center;
@@ -79,7 +79,7 @@ body {
     padding: 20px 10px;
 }
 
-.library .library-button .fa {
+.library .library-title .fa {
     font-size: 20px;
     font-weight: 200;
     margin-right: 10px;
@@ -88,6 +88,8 @@ body {
 
 .library .library-content .fa-plus {
     margin: 24px 10px;
+    color: #b3b3b3;
+    background-color: transparent;
 }
 
 .section-playlist {
