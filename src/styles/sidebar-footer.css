@@ -98,7 +98,7 @@
 
 .section-playlist .section-playlist-content .text {
     padding-bottom: 14px;
-    color: var(--color-2);
+    color: var(--color-3);
 }
 
 .section-playlist .section-playlist-content .title {
@@ -139,7 +139,7 @@
 .languages .languages-button {
     background-color: var(--bg-color-4);
     border: 1px solid var(--color-1);
-    color: var(--color-2);
+    color: var(--color-3);
     font-weight: 700;
     cursor: pointer;
     width: 170px;
@@ -154,7 +154,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     background: var(--bg-1);
-    color: var(--color-2);
+    color: var(--color-3);
     width: 100%;
     position: fixed;
     bottom: 0px;
