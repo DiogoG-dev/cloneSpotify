@@ -1,0 +1,13 @@
+:root {
+    --font-dm-sans: 'DM Sans', sans-serif;
+    
+    --bg-1: linear-gradient(to right, #e30fc7, #3877ff);
+
+    --bg-color-1: #000000;
+    --bg-color-2: #121212;
+    --bg-color-3: #242424;
+    --bg-color-4: tranparent;
+
+    --color-1: #b3b3b3;
+    --color-2: #ffffff;
+}

@@ -83,6 +83,8 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
+  text-transform: none;
+  text-decoration: none;
   vertical-align: baseline;
 }
 
@@ -102,9 +104,9 @@ section {
 }
 
 body {
-  line-height: 1;
-  background: #000;
+  background-color: var(--bg-color-1);
   font-family: var(--font-dm-sans);
+  line-height: 1;
 }
 
 ol,
