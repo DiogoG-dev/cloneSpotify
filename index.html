@@ -14,8 +14,6 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
-
-    <script src="./script.js"></script>
 </head>
 <body>
     <div class="sidebar">
@@ -83,7 +81,8 @@
                 </div>
                 <div class="header-search">
                     <img src="./src/assets/icons/search.png" alt="">
-                    <input type="text" id="search-input" maxlength="800" placeholder="O que você quer ouvir?">
+                    <input id="search-input" maxlength="800" autocorrect="off" autocapitalize="off" spellcheck="false"
+                        placeholder="O que você quer ouvir?" value="" />
                 </div>
                 <div class="header-login">
                     <button class="subscribe">Inscreva-se</button>
@@ -256,5 +255,7 @@
         </div>
         <button class="footer-button">Inscreva-se grátis</button>
     </footer>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
