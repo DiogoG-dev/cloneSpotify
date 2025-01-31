@@ -37,6 +37,10 @@
     font-size: 14px;
 }
 
+.fa {
+    margin-right: 5px;
+}
+
 .library {
     background-color: var(--bg-color-2);
     border-radius: 8px;
@@ -68,13 +72,16 @@
 .library .library-title .fa {
     font-size: 20px;
     font-weight: 200;
-    margin-right: 10px;
+    background-color: var(--bg-color-4);
     padding-right: 8px;
 }
 
 .library .library-content .fa-plus {
-    margin: 24px 10px;
     color: var(--color-1);
+    background-color: transparent;
+}
+
+.library .library-content button {
     background-color: var(--bg-color-4);
 }
 
@@ -146,32 +153,4 @@
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background: var(--bg-1);
-    color: var(--color-3);
-    width: 100%;
-    position: fixed;
-    bottom: 0px;
-    padding: 15px 0px;
-}
-
-.footer-text {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-left: 40px;
-}
-
-.footer-button {
-    font-size: 16px;
-    font-weight: 700;
-    padding: 15px 30px;
-    border-radius: 25px;
-    margin-right: 40px;
 }
